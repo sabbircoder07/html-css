@@ -1,17 +1,54 @@
+h2 {
+  text-align: center;
+  color: #cc0000;
+}
+.legend {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.weekendColor {
+  padding-right: 15px;
+  padding-block-end: 0px;
+  margin: 2px;
+  background-color: plum;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+.todayColor {
+  padding-right: 15px;
+  padding-block-end: 0px;
+  margin: 2px;
+  background-color: #007ba7;
+  border: 1px solid #c0c0c0;
+  border-radius: 2px;
+}
+.calendar {
+  padding: 10px;
+  margin: 5px;
+  background-color: #f5f5dc;
+  border: 1px solid #f5f5dc;
+  border-radius: 5px;
+}
 .day {
- background-color: bisque;
- margin: 5px;
- padding: 10px;
- text-align: center;
+  background-color: bisque;
+  margin: 5px;
+  padding: 10px;
+  text-align: center;
+  border: 2px solid bisque;
+  border-radius: 2px;
 }
 
 .weekend {
- background-color: plum;
- font-style: italic;
+  background-color: plum;
+  font-style: italic;
 }
 
 .today {
- font-weight: bold;
- border: 2px solid gray;
+  font-weight: bold;
+  background-color: #007ba7;
+  border: 2px solid #ff0000;
+  border-radius: 2px;
 }
+
 
